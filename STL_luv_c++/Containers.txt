@@ -1,0 +1,30 @@
+STL -> standard tamplate libary
+    > Containers
+    > Iterators
+    > Algorithms
+    > Functors
+
+    >> Containers 
+        ~ Sequential
+            - Vectors
+            - Stack
+            - Queue
+            - Pairs(not a Containers)
+
+        ~ Ordered
+            - Maps 
+            - Multimap
+            - Set
+            - Multiset
+
+        ~ UnOrdered
+            - UnOrdered Maps
+            - UnOrdered Set 
+
+    >> Nested Containers 
+        - vector<vector<int>>
+        - map<int,vector<int>>
+        - set<pair<int,string>>
+        - vector<map<int,set<int>>>
+
+    

@@ -1,0 +1,2 @@
+Functors -->
+- classes which can act as functions 

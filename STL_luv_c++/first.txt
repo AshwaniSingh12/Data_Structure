@@ -1,0 +1,56 @@
+c++ STL : 
+         1. Algorithm 
+         2. Containers
+
+    Containers :
+            1. Sequence Containers
+                    > Array 
+                    > Vector
+                    > Deque
+                    > List
+                    > Forward_list
+            2. Container Adaptors 
+                    > Stack
+                    > Queue
+                    > Priority Queue
+            3. Associative Containers
+                    > Set
+                    > Map
+                    > Multiset
+                    > Multimap
+            4. Unordered _ Associative
+                    > Unordered Set
+                    > Unordered Map
+                    > Unordered Multiset
+                    > Unordered Multimap
+    
+    Algorithm : 
+            > Binary Search
+            > Lower/Upper Bound
+            > Min/Max
+            > Reverse/Rotate
+            > Sort/Swap ....
+
+Array -> 
+        lib -- >  #include<array>
+                  array<int , 4> a= {1,2,3,4}
+                  size-> a.size();
+                  element at index -> a.at(2);
+                  empty or not -> a.empty();
+                  for first element -> a.front();
+                  for last element -> a.back();
+
+                  all run in O(n) complexity
+
+Vector ->
+        lib -->  #include<vector>
+                 vector<int> v;
+                 vector<int> v1(n,m);  ->> here n is size of vector and m is starting index of vector.
+                 capacity -> v.capacity(); // How many space assign in vector.
+                 size -> v.size(); // How many element present in vector. 
+                 enter element in vector -> v.push_back();
+                 for first element -> a.front();
+                 for last element -> a.back();
+                 for pop the value -> v.pop_back();
+                 for clear the vector all value -> v.clear(); // in this case size is 0 but capacity cantains priviously.
+                 for copy any vector in another vector --> vector<int> v2(v1);

@@ -1,0 +1,12 @@
+Algorithms -->
+- upper bound 
+- lower bound
+- sort (comprator)
+- max - element 
+- min - element
+- accumulate
+-- reverse 
+- count
+- find 
+- next permutations
+- previous - permutations

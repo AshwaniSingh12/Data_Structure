@@ -1,0 +1,5 @@
+Iterators -->
+- point to memory address of Containers
+- begin() , end()
+- vector<int>::Iterator it;
+- continuity for Containers

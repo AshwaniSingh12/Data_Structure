@@ -1,0 +1,2 @@
+what is recursion ?
+=> when a function calls itself untill a specified condition is met.
