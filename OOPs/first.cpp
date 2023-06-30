@@ -1,16 +1,10 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include "Hero_Class.cpp"
 using namespace std;
-class Hero {
-
-    //char name[100];
-    int health;
-    char level;
-
-};
 
 int main()
 {
-    Hero ramesh;
-    cout<<"health is : "<<ramesh.health <<endl;
-    cout<<"Level is : "<<ramesh.level <<endl;
+    Hero h1;
+    
+    cout<<" Size : " << sizeof(h1) << endl;
 }
